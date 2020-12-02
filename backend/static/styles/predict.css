@@ -1,0 +1,12 @@
+.img-container{
+    border:1px solid greenyellow;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    width:250px;
+    height:250px;
+}
+#user-img{
+    src: url("../../upload/logo_size.jpg");
+}
