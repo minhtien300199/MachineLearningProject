@@ -10,14 +10,14 @@
 <body>
     <div class="container">
         <h1 class="text-center title">Demo Fruit Prediction</h1>
-        <form>
-            <div class="form-group">
-              <label for="exampleFormControlFile1">Example file input</label>
+        <form class="border form-predict">
+            <div class="form-group form-container">
+              <label for="exampleFormControlFile1">Predict fruit Demo</label>
               <input accept="image/*" type="file" class="form-control-file" id="exampleFormControlFile1" onchange="renderImage(event)">
               <div class="img-container">
-                  <img id="user-img" src="" alt="image">
+                  <img id="user-img" src="" alt="image" class="rounded-lg">
               </div>
-              <button type="submit" class="btn btn-primary">Get Predict</button>
+              <div id="submit-btn"><button type="submit" class="btn btn-primary">Get Predict</button></div>
             </div>
           </form>
     </div>
